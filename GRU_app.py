@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 # load the gru model
 
-model= load_model('gru_next_word_prediction_model.keras', compile= False) # Load the trained GRU model from the specified file path without compiling it, as we will use it for prediction only
+model= load_model('gru_next_word_prediction_model.h5', compile= False) # Load the trained GRU model from the specified file path without compiling it, as we will use it for prediction only
 
 # load the tokenizer
 
